@@ -1,27 +1,23 @@
+# Site Details
 site_name: Alternate Guides
 site_url: https://skrillx13.github.io/Alternate-Guides/
 site_author: Skrillx
 site_description: >-
   A guide to the Minecraft Modpack "Alternate World"
-repo_url: https://github.com/Skrillx13/Alternate-Guides
-repo_name: Alternate Guides
-extra:
-   social:
-    - icon: fontawesome/brands/twitter
-      link: https://x.com/Skrillx_13
-      name: Tweeter
-    - icon: fontawesome/brands/github
-      link: https://github.com/Skrillx13
-      name: GitHub
-    - icon: fontawesome/brands/flickr
-      link: https://beacons.ai/skrillx
-      name: Linktree
 
+# Repository
+repo_name: Alternate Guides
+repo_url: https://github.com/Skrillx13/Alternate-Guides
+
+# Copyright
+copyright: |
+  &copy; 2024 <a href="https://github.com/Skrillx13/Alternate-Guides"  target="_blank" rel="noopener">Alternate Guides</a> | Made By <a href='https://beacons.ai/skrillx' target='_blank' class='cauthor'>Skrillx</a> | Hosted on <a href='https://pages.github.com' target='_blank' class='cauthor'>GitHub Pages</a>
+
+# Configuration
 theme:
   name: material
   features:
     - toc.follow
-    - toc.integrate
     - navigation.path
     - navigation.top
     - navigation.expand
@@ -32,6 +28,8 @@ theme:
     - navigation.instant.progress
     - navigation.instant.prefetch
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -51,13 +49,14 @@ theme:
         name: Enable Light Mode    
       primary: teal
       accent: lime
+  font: 
+    text: "roboto-condensed"
+    code: Roboto Mono
   icon: 
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
   logo: assets/images/alternateworldicon.png
-  font:
-    text: "roboto-condensed"
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -74,6 +73,20 @@ theme:
         icon: material/brightness-5
         name: Enable Light Mode
 
+# Extra Configurations
+extra:
+   social:
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/Skrillx_13
+      name: Tweeter
+    - icon: fontawesome/brands/github
+      link: https://github.com/Skrillx13
+      name: GitHub
+    - icon: fontawesome/brands/flickr
+      link: https://beacons.ai/skrillx
+      name: Linktree
+
+# Extensions
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -85,5 +98,17 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-copyright: |
-  &copy; 2024 <a href="https://github.com/Skrillx13/Alternate-Guides"  target="_blank" rel="noopener">Alternate Guides</a> | Made By <a href='https://beacons.ai/skrillx' target='_blank' class='cauthor'>Skrillx</a> | Hosted on <a href='https://pages.github.com' target='_blank' class='cauthor'>GitHub Pages</a>
+# Page Tree
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: gettingstarted/installation.md
+  - AW1: 
+    - Home Page: aw1/index.md
+    - Getting Started: aw1/gettingstarted.md
+  - AW2:
+    - Home Page: aw2/index.md
+    - Getting Started: aw2/gettingstarted.md
+  - Help:
+    - Home Page: help/index.md
+    - Frequently Asked Questions: help/faq.md

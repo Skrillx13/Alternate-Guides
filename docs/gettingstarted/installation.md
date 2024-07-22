@@ -7,3 +7,7 @@ The installation varies for the launchers, but the process should be roughly the
 ???+ warning "Some launchers may not be able to fully download the Modpack"
     
     Certain launchers (Such as Prism) are unable to fully download the Modpack. You may get a warning to install mods manually. Simply head over to the Mod's Curse Forge website and download the file directly from there. (This is because Curse Forge blocks tools such as launchers from accessing their API)
+
+## Setup
+
+Upon loading up the instance, wait for the Modpack to fully load (This may take a while depending on your software)
