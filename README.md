@@ -5,7 +5,7 @@ Instead of a typicall wiki fasion style guide, this guide is a general use guide
 
 A set of game-guides done from the ground up for optimized user experience
 
-Note: Alternate Guides is oly for our Modpacks!
+Note: Alternate Guides is only for our Modpacks!
 
 |Alternate world changes a lot of mod configs and crafting recipes, so if any mod guides are listed here, it is to be assumed the instructions in said guide only work for this pack (Unless stated otherwise). Please do not use the mod guides here as a standalone guide.|
 | ----------- | 
