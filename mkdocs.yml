@@ -3,7 +3,7 @@ site_name: Alternate Guides
 site_url: https://skrillx13.github.io/Alternate-Guides/
 site_author: Skrillx
 site_description: >-
-  A guide to the Minecraft Modpack "Alternate World"
+  A guide to the Minecraft Modpack "Alternate World". Progress through the Modpack easily with this guide.
 
 # Repository
 repo_name: Alternate Guides
@@ -16,38 +16,38 @@ copyright: |
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - toc.follow
     - navigation.path
     - navigation.top
-    - navigation.expand
-    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
+    - navigation.sections
     - navigation.top
     - navigation.indexes
     - navigation.footer
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-5
         name: Enable Dark Mode
-      primary: teal
+      primary: dark blue
       accent: purple
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-2
         name: Enable Light Mode    
-      primary: teal
+      primary: black
       accent: lime
   font: 
     text: "roboto-condensed"
@@ -57,21 +57,8 @@ theme:
     edit: material/pencil
     view: material/eye
   logo: assets/images/alternateworldicon.png
-  palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: cyan
-      toggle:
-        icon: material/brightness-2
-        name: Enable Dark Mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: dark blue
-      accent: cyan
-      toggle:
-        icon: material/brightness-5
-        name: Enable Light Mode
+  favicon: assets/images/anvil.png
+  language: en
 
 # Extra Configurations
 extra:
@@ -98,17 +85,22 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-# Page Tree
+# Navigation
 nav:
   - Home: index.md
-  - Getting Started:
+  - Getting Started: 
     - Installation: gettingstarted/installation.md
-  - AW1: 
-    - Home Page: aw1/index.md
+  - AW1:
+    - aw1/index.md
     - Getting Started: aw1/gettingstarted.md
-  - AW2:
-    - Home Page: aw2/index.md
+  - AW2: 
+    - aw2/index.md
     - Getting Started: aw2/gettingstarted.md
+  - Contibution: 
+    - contribution/index.md
+    - Guidelines: contribution/guidelines.md
+  - Extras: 
+    - extras/index.md
   - Help:
-    - Home Page: help/index.md
-    - Frequently Asked Questions: help/faq.md
+    - help/index.md
+    - FAQ: help/faq.md

@@ -1,3 +1,3 @@
 # Alternate World 1/Legacy
 
-Where it all began...
+A Kitchen-Sink Minecraft Modpack with customized content. 
