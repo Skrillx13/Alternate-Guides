@@ -1,6 +1,6 @@
 # Alternate Guides
 
-**Welcome to Alternate Guides**
+**Welcome to Alternate Guides!**
 Instead of a typicall wiki fasion style guide, this guide is a general use guide, with pages for mods, but more of a guide to game progress, and not just a site to "store" pages of information.
 
 A set of game-guides done from the ground up for optimized user experience
