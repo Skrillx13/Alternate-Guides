@@ -56,8 +56,8 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
-  logo: assets/images/alternateworldicon.png
-  favicon: assets/images/anvil.png
+  logo: assets/images/alternateworldtitle.png
+  favicon: assets/images/anvilicon.png
   language: en
 
 # Extra Configurations
